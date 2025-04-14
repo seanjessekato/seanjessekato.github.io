@@ -97,9 +97,9 @@
 
     /* theme color variations
      */
-    --color-1-lighter              : hsla(183, 22%, 68%, 1);
-    --color-1-light                : hsla(183, 22%, 58%, 1);
-    --color-1-dark                 : hsla(183, 22%, 38%, 1);
+    --color-1-lighter              : #B9BBB4;
+    --color-1-light                : #7ca9ab;
+    --color-1-dark                 : rgb(76, 116, 118);
 
     --color-2-lighter              : hsla(336, 13%, 36%, 1);
     --color-2-light                : hsla(336, 13%, 26%, 1);
@@ -170,13 +170,13 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #CFE6E8;
+    --color-preloader-bg           : #B35512;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #B15813;
+    --color-body                   : #B35512;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
