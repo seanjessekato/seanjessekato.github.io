@@ -100,7 +100,6 @@
     --color-1-lighter              : hsla(183, 22%, 68%, 1);
     --color-1-light                : hsla(183, 22%, 58%, 1);
     --color-1-dark                 : hsla(183, 22%, 38%, 1);
-    --color-1-darker               : hsla(183, 22%, 28%, 1);
 
     --color-2-lighter              : hsla(336, 13%, 36%, 1);
     --color-2-light                : hsla(336, 13%, 26%, 1);
@@ -177,7 +176,7 @@
 
     /* others
      */
-    --color-body                   : #CFE6E8;
+    --color-body                   : #B15813;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
@@ -3244,7 +3243,7 @@ img.u-pull-left {
  * ## intro bg
  * -------------------------------------------------------------------- */
 .s-intro__bg {
-    aspect-ratio        : 1/1;
+    aspect-ratio        : 2/3;
     width               : 100%;
     background-color    : var(--color-gray-4);
     background-image    : url(../images/intro-bg.jpg);
