@@ -92,14 +92,14 @@
     /* color-1(#5F9295)
      * color-2(#2D2327)
      */
-    --color-1                      : hsla(183, 22%, 48%, 1);
-    --color-2                      : hsla(336, 13%, 16%, 1);
+    --color-1                      : #B9BBB4
+    --color-2                      : #B9BBB4(336, 13%, 16%, 1);
 
     /* theme color variations
      */
     --color-1-lighter              : #B9BBB4;
-    --color-1-light                : #7ca9ab;
-    --color-1-dark                 : rgb(76, 116, 118);
+    --color-1-light                : #B9BBB4;
+    --color-1-dark                 : #B9BBB4(76, 116, 118);
 
     --color-2-lighter              : hsla(336, 13%, 36%, 1);
     --color-2-light                : hsla(336, 13%, 26%, 1);
@@ -3632,7 +3632,7 @@ img.u-pull-left {
 .s-works {
     padding-top      : calc(6 * var(--space));
     padding-bottom   : calc(5.5 * var(--space));
-    background-color : white;
+    background-color : #B9BBB4;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3773,7 +3773,7 @@ img.u-pull-left {
 }
 
 .testimonial-slider__slide {
-    background-color : white;
+    background-color : #B9BBB4;
     text-align       : center;
     width            : 100%;
     position         : relative;
@@ -4003,13 +4003,13 @@ img.u-pull-left {
 }
 
 .s-footer .link-list a {
-    color  : var(--color-text);
+    color  : B9BBB4;
     border : none;
 }
 
 .s-footer .link-list a:focus,
 .s-footer .link-list a:hover {
-    color : var(--color-1);
+    color : B9BBB4;
 }
 
 .s-footer__contact-header {
@@ -4028,11 +4028,11 @@ img.u-pull-left {
     padding-top : var(--vspace-1_25);
     font-size   : var(--text-sm);
     line-height : var(--vspace-0_75);
-    color       : var(--color-gray-14);
+    color       : #B9BBB4
 }
 
 .s-footer__bottom a {
-    color : var(--color-1);
+    color : #B9BBB4
 }
 
 /* ------------------------------------------------------------------- 
