@@ -170,13 +170,13 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #B35512;
+    --color-preloader-bg           : #274c77;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #B35512;
+    --color-body                   : #274c77;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
@@ -1300,7 +1300,7 @@ body {
     font-size   : var(--base-font-size);
     font-weight : 400;
     line-height : var(--vspace-1);
-    color       : var(--color-text);
+    color       : var(--color-text-dark);
 }
 
 /* links
